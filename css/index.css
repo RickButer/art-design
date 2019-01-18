@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.debug {
+    border: 1px solid black;
+}
+/* einde standaard css code ******************************* */
+
+
+
+.navbar_container {
+    position: sticky;
+    width:  100%;
+    height: 5vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_container a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.photo_container_flexbox {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;
+}
+
+.left_container_space {
+    width: 5%;
+    height: auto;
+    transition: 1s;
+}
+
+.left_container_space:hover {
+    background-color: lightgray;
+    filter: blur(5px);
+}
+
+.main_container {
+    width: 90%;
+    height: auto;
+    background-image: url(/images/girl5.jpg);
+    background-size: cover;
+}
+
+.right_container_space {
+    width: 5%;
+    height: auto;
+    transition: 1s;
+}
+
+.right_container_space:hover {
+    background-color: lightgray;
+    filter: blur(5px);
+}
+
+.whitespace {
+    height: 5vh;
+    width: 100%;
+}
+
+
+
+
+
+
