@@ -14,27 +14,37 @@ body {
 }
 /* einde standaard css code ******************************* */
 
-
-
 .navbar_container {
-    position: sticky;
     width:  100%;
-    height: 5vh;
+    height: auto;
     background-size: cover;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 
 .navbar_container a {
     text-decoration: none;
     outline: none;
     color: black;
+    display: inline-block;
+    width: 100%;
 }
 
 @media screen and (min-width: 500px) {
-    
+    .navbar_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 5vh;
+    }
 }
+
+@media screen and (min-width: 500px) {
+    .navbar_container a {
+        width: auto;
+    }
+}
+
 
 /* end navbar ******************************************************* */
 
@@ -42,9 +52,14 @@ body {
     position: relative;
     height: 90vh;
     width: 100%;
-    background-image: url(/images/girl1.jpg);
-    background-size: cover;
+    transition: 1s;
 }
+
+#sliderHome {
+    width: 100%;
+    height: 100%;
+}
+
 
 .circle_container {
     width: 16%;
