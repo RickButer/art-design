@@ -3,10 +3,11 @@ var indexSliderHomePageArray = ['/images/girl1.jpg', '/images/girl2.jpg', '/imag
 var indexSliderHomeCounter = 4000;
 
 function startHomePageSlider() {
-    if (indexSliderHomePage > indexSliderHomePageArray.length -1){
+    document.getElementsByClassName('navbar_container').src = indexSliderHomePageArray;
+    if (indexSliderHomePage > indexSliderHomePageArray.length - 1) {
         indexSliderHomePage++;
+    } else {
+        indexSliderHomePage = 0;
     }
- else {
-    indexSliderHomePage = 0;
 }
-}
+window.onload=startHomePageSlider;

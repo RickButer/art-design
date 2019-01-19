@@ -32,41 +32,73 @@ body {
     color: black;
 }
 
-.photo_container_flexbox {
-    display: flex;
-    justify-content: space-between;
+@media screen and (min-width: 500px) {
+    
+}
+
+/* end navbar ******************************************************* */
+
+.photo_container {
+    position: relative;
     height: 90vh;
     width: 100%;
-}
-
-.left_container_space {
-    width: 5%;
-    height: auto;
-    transition: 1s;
-}
-
-.left_container_space:hover {
-    background-color: lightgray;
-    filter: blur(5px);
-}
-
-.main_container {
-    width: 90%;
-    height: auto;
     background-image: url(/images/girl1.jpg);
     background-size: cover;
 }
 
-.right_container_space {
-    width: 5%;
-    height: auto;
-    transition: 1s;
+.circle_container {
+    width: 16%;
+    height: 4vh;
+    bottom: 0;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    left: 42%;
+    background-color: rgba(192,192,192,0.6);
 }
 
-.right_container_space:hover {
-    background-color: lightgray;
-    filter: blur(5px);
+.circle1 {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.5px solid black;
 }
+
+.circle2 {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.circle3 {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.circle4 {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.circle5 {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+/* end slider ******************************************************** */
 
 .whitespace {
     height: 5vh;
