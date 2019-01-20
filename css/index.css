@@ -7,6 +7,7 @@ body {
     width: 100%;
     margin: 0;
     text-align: center;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .debug {
@@ -20,6 +21,7 @@ body {
     background-size: cover;
     align-items: center;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 .navbar_container a {
@@ -30,12 +32,18 @@ body {
     width: 100%;
 }
 
+.navbar_container a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
 @media screen and (min-width: 500px) {
     .navbar_container {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 5vh;
+        height: 7vh;
     }
 }
 
@@ -60,6 +68,11 @@ body {
     height: 100%;
 }
 
+#logo_stamp {
+    position: absolute;
+    padding: 10px 0 0 10px;
+}
+
 
 .circle_container {
     width: 16%;
@@ -79,6 +92,7 @@ body {
     background-color: white;
     border-radius: 50%;
     border: 1.5px solid black;
+    cursor: pointer;
 }
 
 .circle2 {
@@ -87,6 +101,7 @@ body {
     background-color: white;
     border-radius: 50%;
     border: 1.5px solid black;
+    cursor: pointer;
 }
 
 .circle3 {
@@ -95,6 +110,7 @@ body {
     background-color: white;
     border-radius: 50%;
     border: 1.5px solid black;
+    cursor: pointer;
 }
 
 .circle4 {
@@ -103,6 +119,7 @@ body {
     background-color: white;
     border-radius: 50%;
     border: 1.5px solid black;
+    cursor: pointer;
 }
 
 .circle5 {
@@ -111,6 +128,7 @@ body {
     background-color: white;
     border-radius: 50%;
     border: 1.5px solid black;
+    cursor: pointer;
 }
 
 /* end slider ******************************************************** */

@@ -17,16 +17,36 @@ function startHomePageSlider() {
     }
     setTimeout("startHomePageSlider()", 5000);
 
-    // if (indexSliderHomePage = 0) {
-    //     circle1.style.backgroundColor = 'black';
-    // } else if (indexSliderHomePage = 1) {
-    //     circle2.style.backgroundColor = 'black';
-    // } else if (indexSliderHomePage = 2) {
-    //     circle3.style.backgroundColor = 'black';
-    // } else if (indexSliderHomePage = 3) {
-    //     circle4.style.backgroundColor = 'black';
-    // }   else {
-    //     circle5.style.backgroundColor = 'black';
-    //     }
+    if (indexSliderHomePage == 0) {
+        circle1.style.backgroundColor = 'black';
+    } else if (indexSliderHomePage == 1) {
+        circle2.style.backgroundColor = 'black';
+    } else if (indexSliderHomePage == 2) {
+        circle3.style.backgroundColor = 'black';
+    } else if (indexSliderHomePage == 3) {
+        circle4.style.backgroundColor = 'black';
+    }   else {
+        circle5.style.backgroundColor = 'black';
+        }
     }
 window.onload = startHomePageSlider;
+
+function changeImg1() {
+    indexSliderHomePage = 0;
+}
+
+function changeImg2() {
+    indexSliderHomePage = 1;
+}
+
+function changeImg3() {
+    indexSliderHomePage = 2;
+}
+
+function changeImg4() {
+    indexSliderHomePage = 3;
+}
+
+function changeImg5() {
+    indexSliderHomePage = 4;
+}
