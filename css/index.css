@@ -138,8 +138,23 @@ body {
     width: 100%;
 }
 
+/* start current exhibition ******************************************* */
 
+#current_exhibition {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    font-size: 25px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    letter-spacing: 8px;
+}
 
+.CE_container {
+    
+}
 
 
 

@@ -13,7 +13,6 @@ function startHomePageSlider() {
         indexSliderHomePage++;
     } else {
         indexSliderHomePage = 0;
-        console.log(indexSliderHomePage)
     }
     setTimeout("startHomePageSlider()", 5000);
 
