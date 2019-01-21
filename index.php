@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artists shops</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar_container">
-        <img src="/images/artLogo.png" alt="" width="120vw" height="50vh" />
+        <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_exhibition">current artists</a>
         <a href="#">art for rent</a>
         <a href="#">contact</a>
         <a href="#">login</a>
     </div>
     <div class="photo_container">
-        <img src="/images/artstamp.png" alt="" id="logo_stamp" />
-        <img src="/images/girl1.jpg" alt="" name="homeSlider" id="sliderHome" />
+        <img src="images/artstamp.png" alt="" id="logo_stamp" />
+        <img src="images/girl1.jpg" alt="" name="homeSlider" id="sliderHome" />
         <div class="circle_container">
             <div class="circle1" onclick="changeImg1()"></div>
             <div class="circle2" onclick="changeImg2()"></div>
@@ -31,7 +31,11 @@
     </div>
     <div class="whitespace"></div>
     <div id="current_exhibition">current artists</div>
-    <div class="CE_container"></div>
+    <div class="CA_container debug">
+        <div class="CA_photo_container debug"></div>
+        <div class="CA_text_container debug"></div>
+        <div class="CA_next_container debug"></div>
+    </div>
 
 
 

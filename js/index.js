@@ -1,5 +1,5 @@
 var indexSliderHomePage = 0;
-var sliderHomePageArray = ['/images/girl1.jpg', '/images/girl2.jpg', '/images/girl3.jpg', '/images/girl4.jpg', '/images/girl5.jpg'];
+var sliderHomePageArray = ['images/girl1.jpg', 'images/girl2.jpg', 'images/girl3.jpg', 'images/girl4.jpg', 'images/girl5.jpg'];
 
 var circle1 = document.getElementsByClassName('circle1');
 var circle2 = document.getElementsByClassName('circle2');
@@ -9,18 +9,17 @@ var circle5 = document.getElementsByClassName('circle5');
 
 function startHomePageSlider() {
     document.homeSlider.src = sliderHomePageArray[indexSliderHomePage];
-    setTimeout("startHomePageSlider()", 5000);
 
-    if (indexSliderHomePage == 0) {
+    if (indexSliderHomePage === 0) {
         circle1[0].style.backgroundColor = 'black';
         circle5[0].style.backgroundColor = 'white';
-    } else if (indexSliderHomePage == 1) {
+    } else if (indexSliderHomePage === 1) {
         circle2[0].style.backgroundColor = 'black';
         circle1[0].style.backgroundColor = 'white';
-    } else if (indexSliderHomePage == 2) {
+    } else if (indexSliderHomePage === 2) {
         circle3[0].style.backgroundColor = 'black';
         circle2[0].style.backgroundColor = 'white';
-    } else if (indexSliderHomePage == 3) {
+    } else if (indexSliderHomePage === 3) {
         circle4[0].style.backgroundColor = 'black';
         circle3[0].style.backgroundColor = 'white';
     } else {
@@ -33,6 +32,7 @@ function startHomePageSlider() {
         indexSliderHomePage = 0;
     }
 }
+setInterval("startHomePageSlider()", 5000);
 window.onload = startHomePageSlider;
 
 function changeImg1() {

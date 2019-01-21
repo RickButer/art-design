@@ -157,9 +157,28 @@ body {
     letter-spacing: 8px;
 }
 
-.CE_container {
-    
+.CA_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.CA_photo_container {
+    height: 75%;
+    width: 35vw;
+}
+
+
+.CA_text_container {
+    height: 75%;
+    width: 35%;
+}
+
+.CA_next_container {
+    height: 20%;
+    width: 20vw;
+}
 
 
