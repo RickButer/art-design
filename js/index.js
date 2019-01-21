@@ -9,25 +9,30 @@ var circle5 = document.getElementsByClassName('circle5');
 
 function startHomePageSlider() {
     document.homeSlider.src = sliderHomePageArray[indexSliderHomePage];
+    setTimeout("startHomePageSlider()", 5000);
+
+    if (indexSliderHomePage == 0) {
+        circle1[0].style.backgroundColor = 'black';
+        circle5[0].style.backgroundColor = 'white';
+    } else if (indexSliderHomePage == 1) {
+        circle2[0].style.backgroundColor = 'black';
+        circle1[0].style.backgroundColor = 'white';
+    } else if (indexSliderHomePage == 2) {
+        circle3[0].style.backgroundColor = 'black';
+        circle2[0].style.backgroundColor = 'white';
+    } else if (indexSliderHomePage == 3) {
+        circle4[0].style.backgroundColor = 'black';
+        circle3[0].style.backgroundColor = 'white';
+    } else {
+        circle5[0].style.backgroundColor = 'black';
+        circle4[0].style.backgroundColor = 'white';
+    }
     if (indexSliderHomePage < sliderHomePageArray.length - 1) {
         indexSliderHomePage++;
     } else {
         indexSliderHomePage = 0;
     }
-    setTimeout("startHomePageSlider()", 5000);
-
-    if (indexSliderHomePage == 0) {
-        circle1.style.backgroundColor = 'black';
-    } else if (indexSliderHomePage == 1) {
-        circle2.style.backgroundColor = 'black';
-    } else if (indexSliderHomePage == 2) {
-        circle3.style.backgroundColor = 'black';
-    } else if (indexSliderHomePage == 3) {
-        circle4.style.backgroundColor = 'black';
-    }   else {
-        circle5.style.backgroundColor = 'black';
-        }
-    }
+}
 window.onload = startHomePageSlider;
 
 function changeImg1() {

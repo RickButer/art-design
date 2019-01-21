@@ -83,7 +83,7 @@ body {
     align-items: center;
     display: flex;
     left: 42%;
-    background-color: rgba(192,192,192,0.6);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .circle1 {
@@ -93,6 +93,7 @@ body {
     border-radius: 50%;
     border: 1.5px solid black;
     cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 .circle2 {
@@ -102,6 +103,7 @@ body {
     border-radius: 50%;
     border: 1.5px solid black;
     cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 .circle3 {
@@ -111,6 +113,7 @@ body {
     border-radius: 50%;
     border: 1.5px solid black;
     cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 .circle4 {
@@ -120,6 +123,7 @@ body {
     border-radius: 50%;
     border: 1.5px solid black;
     cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 .circle5 {
@@ -129,6 +133,7 @@ body {
     border-radius: 50%;
     border: 1.5px solid black;
     cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 /* end slider ******************************************************** */
