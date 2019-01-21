@@ -168,17 +168,56 @@ body {
 .CA_photo_container {
     height: 75%;
     width: 35vw;
+    background-image: url(../images/artist1.jpg);
+    background-size: cover;
 }
 
 
 .CA_text_container {
-    height: 75%;
+    height: 60%;
     width: 35%;
+    text-align: left;
 }
 
 .CA_next_container {
     height: 20%;
     width: 20vw;
+    display: block;
+}
+
+.next_text {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
 }
 
 
+.next_arrow {
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .CA_container {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .CA_photo_container {
+        display: block;
+        width: 100%;
+    }
+
+    .CA_text_container {
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+}

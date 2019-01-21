@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artists shops</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 </head>
 
@@ -31,10 +31,29 @@
     </div>
     <div class="whitespace"></div>
     <div id="current_exhibition">current artists</div>
-    <div class="CA_container debug">
-        <div class="CA_photo_container debug"></div>
-        <div class="CA_text_container debug"></div>
-        <div class="CA_next_container debug"></div>
+    <div class="CA_container">
+        <div class="CA_photo_container"></div>
+        <div class="CA_text_container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, neque sit amet congue
+                sodales, sapien nisl tempus massa, ut consequat est tellus consequat arcu. Aliquam purus erat, ornare
+                at risus tincidunt, efficitur rhoncus elit. Maecenas non venenatis quam. Integer sit amet iaculis enim.
+                Fusce consectetur at massa ut vestibulum. Duis non venenatis neque, quis pharetra nisi. Sed ut nisi
+                tempus, condimentum ligula vel, lacinia magna.
+
+                Pellentesque metus nisi, lacinia non facilisis rhoncus, ultrices in sem. Cras convallis rhoncus
+                vehicula. Sed gravida mollis porta. Pellentesque aliquet, arcu at euismod vestibulum, elit tellus
+                semper risus, ac eleifend nunc nibh interdum est. Maecenas non ligula in metus vestibulum fringilla.
+                Aliquam tristique ornare nisi, eget eleifend justo. Nulla facilisi. In sem tellus, facilisis eget
+                accumsan et, consequat sed dolor. Suspendisse lorem tellus, interdum sit amet mi a, volutpat lacinia
+                massa. Aliquam erat volutpat.
+                </p>
+        </div>
+        <div class="CA_next_container">
+            <div class="next_text">
+                <p>next artist</p>
+            </div>
+            <img src="images/Rightarrow.png" class="next_arrow" />
+        </div>
     </div>
 
 
