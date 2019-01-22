@@ -145,7 +145,7 @@ body {
 
 /* start current exhibition ******************************************* */
 
-#current_exhibition {
+#current_artist {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -221,3 +221,71 @@ body {
         padding: 0 10px;
     }
 }
+/* ************************************************************ */
+
+#art_for_rent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    font-size: 25px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    letter-spacing: 8px;
+}
+/* Start art for rent *************************************** */
+
+.art_for_rent_filter_container {
+    width: 50%;
+    height: 10vh;
+    margin: auto;
+}
+
+.filter_artist {
+
+}
+
+.filter_price {
+
+}
+
+/* end filter div */
+
+
+.art_for_rent_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DB_artist {
+    height: 70vh;
+    width: 30vw;
+}
+
+.DB_back_button {
+    width: 5vw;
+    height: 5vh;
+    cursor: pointer;
+    background-image: url(../images/Rightarrow.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.DB_art {
+    width: 50vw;
+    height: 70vh;
+}
+
+.DB_next_button {
+    width: 5vw;
+    height: 5vh;
+    cursor: pointer;
+    background-image: url(../images/Rightarrow.png);
+    background-size: cover;
+}
+
+

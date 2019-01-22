@@ -14,7 +14,7 @@
     <div class="navbar_container">
         <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_exhibition">current artists</a>
-        <a href="#">art for rent</a>
+        <a href="#art_for_rent">art for rent</a>
         <a href="#">contact</a>
         <a href="#">login</a>
     </div>
@@ -30,7 +30,8 @@
         </div>
     </div>
     <div class="whitespace"></div>
-    <div id="current_exhibition">current artists</div>
+    <!-- start current artist ************************************** -->
+    <div id="current_artist">current artists</div>
     <div class="CA_container">
         <div class="CA_photo_container"></div>
         <div class="CA_text_container">
@@ -46,7 +47,7 @@
                 Aliquam tristique ornare nisi, eget eleifend justo. Nulla facilisi. In sem tellus, facilisis eget
                 accumsan et, consequat sed dolor. Suspendisse lorem tellus, interdum sit amet mi a, volutpat lacinia
                 massa. Aliquam erat volutpat.
-                </p>
+            </p>
         </div>
         <div class="CA_next_container">
             <div class="next_text">
@@ -55,6 +56,26 @@
             <img src="images/Rightarrow.png" class="next_arrow" />
         </div>
     </div>
+    <!-- Start art for rent************************************** -->
+    <div class="whitespace"></div>
+    <div id="art_for_rent">art for rent</div>
+    
+    <div class="art_for_rent_filter_container debug">
+        <div class="filter_artist_dropdown debug">
+            <button class="dropdown_artist">artist</button>
+        </div>
+        <div class="filter_price debug"></div>
+    </div>
+
+    <div class="art_for_rent_container debugs">
+        <div class="DB_artist debug"></div>
+        <div class="DB_back_button"></div>
+            <div class="DB_art debug"></div>
+            <div class="DB_next_button"></div>
+    
+
+    </div>
+
 
 
 
