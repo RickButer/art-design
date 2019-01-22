@@ -12,7 +12,7 @@
 
 <body>
     <div class="navbar_container">
-        <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
+        <img src="/images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_exhibition">current artists</a>
         <a href="#art_for_rent">art for rent</a>
         <a href="#">contact</a>
@@ -20,7 +20,7 @@
     </div>
     <div class="photo_container">
         <img src="images/artstamp.png" alt="" id="logo_stamp" />
-        <img src="images/girl1.jpg" alt="" name="homeSlider" id="sliderHome" />
+        <img src="images/artwork/girl1.jpg" alt="" name="homeSlider" id="sliderHome" />
         <div class="circle_container">
             <div class="circle1" onclick="changeImg1()"></div>
             <div class="circle2" onclick="changeImg2()"></div>

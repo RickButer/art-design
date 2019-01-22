@@ -1,5 +1,5 @@
 var indexSliderHomePage = 0;
-var sliderHomePageArray = ['images/girl1.jpg', 'images/girl2.jpg', 'images/girl3.jpg', 'images/girl4.jpg', 'images/girl5.jpg'];
+var sliderHomePageArray = ['images/artwork/girl1.jpg', 'images/artwork/girl2.jpg', 'images/artwork/girl3.jpg', 'images/artwork/girl4.jpg', 'images/artwork/girl5.jpg'];
 
 var circle1 = document.getElementsByClassName('circle1');
 var circle2 = document.getElementsByClassName('circle2');
