@@ -12,8 +12,8 @@
 
 <body>
     <div class="navbar_container">
-        <img src="/images/artLogo.png" alt="" width="120vw" height="50vh" />
-        <a href="#current_exhibition">current artists</a>
+        <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
+        <a href="#current_artist">current artists</a>
         <a href="#art_for_rent">art for rent</a>
         <a href="#">contact</a>
         <a href="#">login</a>
@@ -59,26 +59,7 @@
     <!-- Start art for rent************************************** -->
     <div class="whitespace"></div>
     <div id="art_for_rent">art for rent</div>
-    
-    <div class="art_for_rent_filter_container debug">
-        <div class="filter_artist_dropdown debug">
-            <button class="dropdown_artist">artist</button>
-        </div>
-        <div class="filter_price debug"></div>
-    </div>
-
-    <div class="art_for_rent_container debugs">
-        <div class="DB_artist debug"></div>
-        <div class="DB_back_button"></div>
-            <div class="DB_art debug"></div>
-            <div class="DB_next_button"></div>
-    
-
-    </div>
-
-
-
-
+    <?php include "CARD.php" ?>
 
     <script src="js/index.js"></script>
 </body>
