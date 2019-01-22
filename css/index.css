@@ -171,8 +171,6 @@ body {
 .CA_photo_container {
     height: 75%;
     width: 35vw;
-    background-image: url(../images/artist/enn_kunila.jpg);
-    background-size: cover;
 }
 
 
@@ -180,6 +178,7 @@ body {
     height: 60%;
     width: 35%;
     text-align: left;
+    font-size: 25px;
 }
 
 .CA_next_container {
