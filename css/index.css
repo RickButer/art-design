@@ -182,7 +182,6 @@ body {
 }
 
 #text_container_p {
-    max-width: 50px;
     overflow: wrap;
 }
 

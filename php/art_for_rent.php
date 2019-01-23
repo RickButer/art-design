@@ -14,7 +14,7 @@
     <div class="whitespace"></div>
     <div class="name_holder_container">
         <div class="name_holder">
-            <img src="../images/artLogo.png"/>
+            <a href="../index.php"><img src="../images/artLogo.png"></a>
             <p>art for rent</p>
         </div>
     </div>
@@ -27,20 +27,14 @@
     </div>
     <div class="whitespace"></div>
     <div class="art_name_holder_container">
-        <div class="art_name_holder">
-            <p>art by --include php--</p>
-        </div>
+        <?php include "../artist_name.php"?>
     </div>
     <div class="whitespace"></div>
     <div class="art_container">
         <?php include "../art_bob_ross.php"?>
     </div>
     <div class="price_holder">
-        <div class="price_box debug"></div>
-        <div class="price_box debug"></div>
-        <div class="price_box debug"></div>
-        <div class="price_box debug"></div>
-        <div class="price_box debug"></div>
+        <?php include "../bob_ross_prices.php"?>
     </div>
 
 </body>

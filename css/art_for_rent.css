@@ -109,7 +109,7 @@ body {
 
 .price_holder {
     width: 100%;
-    height: 5vh;
+    height: 3vh;
     display: flex;
     justify-content: space-around;
 }
@@ -118,4 +118,6 @@ body {
     width: 15vw;
     height: 100%;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }

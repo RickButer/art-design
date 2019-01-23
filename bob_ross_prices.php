@@ -8,7 +8,7 @@
 
     foreach ($db_result as $row)
     {              
-        echo '<img src="../' . $row['kunst_url'] . '" class="art_box" />';
+        echo '<div class="price_box">€' . $row['prijs_kunstwerk'] . '</div>';
     }
     
     $conn = null;

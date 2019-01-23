@@ -15,7 +15,6 @@
         <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_artist">current artists</a>
         <a href="#art_for_rent">contact</a>
-        <a href="#">login</a>
         <a href="php/art_for_rent.php">art for rent</a>
     </div>
     <div class="photo_container">
@@ -33,9 +32,13 @@
     <!-- start current artist ************************************** -->
     <div id="current_artist">current artists</div>
     <div class="CA_container">
-        <img src="images/artist/enn_kunila.jpg" width="100%" height="100%" alt="" name="artist_images" class="CA_photo_container"/>
+        <img src="images/artist/enn_kunila.jpg" width="100%" height="100%" alt="" name="artist_images" class="CA_photo_container" />
         <div class="CA_text_container debug">
-            <p id="text_container_p">dbfhdsb hfbds hgbhdsghdsfkd sgdshgdshgds hfdshfkj dshgdshgfdsjk
+            <p id="text_container_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a erat sit amet
+                ipsum venenatis ultrices non non odio. Suspendisse laoreet velit felis. Proin vel facilisis elit, non
+                tempus nulla. Vestibulum laoreet orci a purus scelerisque condimentum. Mauris in leo tempor, posuere
+                magna auctor, maximus quam. Proin pretium orci nec imperdiet volutpat. Cras nec laoreet est. Vestibulum
+                gravida odio placerat.
             </p>
         </div>
         <div class="CA_next_container">
@@ -47,9 +50,6 @@
     </div>
     <!-- Start art for rent************************************** -->
     <div class="whitespace"></div>
-    <div id="art_for_rent">art for rent</div>
-    <?php include "CARD.php" ?>
-
     <script src="js/index.js"></script>
 </body>
 
