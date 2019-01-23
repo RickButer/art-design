@@ -14,13 +14,13 @@
     <div class="navbar_container">
         <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_artist">current artists</a>
-        <a href="#art_for_rent">art for rent</a>
-        <a href="#">contact</a>
+        <a href="#art_for_rent">contact</a>
         <a href="#">login</a>
+        <a href="php/art_for_rent.php">art for rent</a>
     </div>
     <div class="photo_container">
         <img src="images/artstamp.png" alt="" id="logo_stamp" />
-        <img src="images/artwork/girl1.jpg" alt="" name="homeSlider" id="sliderHome" />
+        <img src="images/artwork/girl1.jpg" alt="" width="100%" height="100%" name="homeSlider" id="sliderHome" />
         <div class="circle_container">
             <div class="circle1"></div>
             <div class="circle2"></div>
@@ -33,13 +33,9 @@
     <!-- start current artist ************************************** -->
     <div id="current_artist">current artists</div>
     <div class="CA_container">
-        <img src="images/artist/enn_kunila.jpg" alt="" name="artist_images" class="CA_photo_container"/>
-        <div class="CA_text_container">
-            <p id="text_container_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque, neque sit amet congue
-                sodales, sapien nisl tempus massa, ut consequat est tellus consequat arcu. Aliquam purus erat, ornare
-                at risus tincidunt, efficitur rhoncus elit. Maecenas non venenatis quam. Integer sit amet iaculis enim.
-                Fusce consectetur at massa ut vestibulum. Duis non venenatis neque, quis pharetra nisi. Sed ut nisi
-                tempus, condimentum ligula vel, lacinia magna.
+        <img src="images/artist/enn_kunila.jpg" width="100%" height="100%" alt="" name="artist_images" class="CA_photo_container"/>
+        <div class="CA_text_container debug">
+            <p id="text_container_p">dbfhdsb hfbds hgbhdsghdsfkd sgdshgdshgds hfdshfkj dshgdshgfdsjk
             </p>
         </div>
         <div class="CA_next_container">

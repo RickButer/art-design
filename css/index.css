@@ -179,6 +179,12 @@ body {
     width: 35%;
     text-align: left;
     font-size: 25px;
+    
+}
+
+#text_container_p {
+    max-width: 50px;
+    overflow: wrap;
 }
 
 .CA_next_container {
