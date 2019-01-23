@@ -12,34 +12,37 @@
 
 <body>
     <div class="whitespace"></div>
-    <div class="name_holder_container debug">
-        <div class="name_holder debug"><p>art for rent</p></div>
+    <div class="name_holder_container">
+        <div class="name_holder">
+            <img src="../images/artLogo.png"/>
+            <p>art for rent</p>
+        </div>
     </div>
     <div class="whitespace"></div>
-    <div class="photo_container debug">
-        <img src="" class="photo_box debug"/>
-        <img src="" class="photo_box debug"/>
-        <img src="" class="photo_box debug"/>
-        <img src="" class="photo_box debug"/>
+    <div class="photo_container">
+    <?php include "../artist_photo.php"?>
     </div>
-    <div class="nametag_holder debug">
-        <div class="name_artist debug"></div>
-        <div class="name_artist debug"></div>
-        <div class="name_artist debug"></div>
-        <div class="name_artist debug"></div>
+    <div class="nametag_holder">
+    <?php include "../nametag.php"?>
     </div>
     <div class="whitespace"></div>
-    <div class="art_name_holder_container debug">
-        <div class="art_name_holder debug"><p>art by --include php--</p></div>
+    <div class="art_name_holder_container">
+        <div class="art_name_holder">
+            <p>art by --include php--</p>
+        </div>
     </div>
     <div class="whitespace"></div>
-    <div class="art_container debug">
-            <div class="art_box debug">
-            <div class="art_box debug">
-            <div class="art_box debug">
-            <div class="art_box debug">
-            <div class="art_box debug">
- </div>
+    <div class="art_container">
+        <?php include "../art_bob_ross.php"?>
+    </div>
+    <div class="price_holder">
+        <div class="price_box debug"></div>
+        <div class="price_box debug"></div>
+        <div class="price_box debug"></div>
+        <div class="price_box debug"></div>
+        <div class="price_box debug"></div>
+    </div>
+
 </body>
 
 </html>

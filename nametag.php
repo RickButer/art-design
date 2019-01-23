@@ -2,29 +2,17 @@
 
     include "db_connection.php";   
     
-    $querie = "SELECT * FROM `kunstwerken` LIMIT 1 ;";
+    $querie = "SELECT * FROM `kunstwerken` GROUP BY naam_kunstenaar";
 
     $db_result = $conn->query($querie);
 
     foreach ($db_result as $row)
-    {            
-        
-        echo '<div class="filter_artist"><p>' . ' art by ' . $row["naam_kunstenaar"] . '</p></div>' . 
-             '<div class="art_for_rent_container">' . 
-             '<img src="' . $row["artist_url"] . '" class="DB_artist"/>' .
-             '<div class="DB_back_button"></div>' .
-             '<img src="' . $row["kunst_url"] . '" class="DB_art"/>' .
-             '<div class="DB_next_button"></div>' .
-             '</div>' ;
-
+    {              
+        echo '<div class="name_artist">' . $row['naam_kunstenaar'] . '</div>';
     }       
     
     $conn = null;
     
-    
-  
-
-
     //CARD.PHP
 
     // include "db_connection.php";        
