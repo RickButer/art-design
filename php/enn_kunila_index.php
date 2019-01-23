@@ -28,15 +28,15 @@
     </div>
     <div class="whitespace"></div>
     <div class="art_name_holder_container">
-        <?php include "../artist_name.php"?>
+        <?php include "../artist_name_kunila.php"?>
     </div>
     <div class="whitespace"></div>
     <div class="art_container">
-        <?php include "../art_bob_ross.php"?>
+        <?php include "../art_enn_kunila.php"?>
     </div>
     <div class="whitespace_2"></div>
     <div class="price_holder">
-        <?php include "../bob_ross_prices.php"?>
+        <?php include "../enn_kunila_prices.php"?>
     </div>
 
 </body>

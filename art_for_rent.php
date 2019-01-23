@@ -22,7 +22,6 @@
     <div class="photo_container">
     <?php include "../artist_photo.php"?>
     </div>
-    <div class="whitespace_2"></div>
     <div class="nametag_holder">
     <?php include "../nametag.php"?>
     </div>
@@ -34,7 +33,6 @@
     <div class="art_container">
         <?php include "../art_bob_ross.php"?>
     </div>
-    <div class="whitespace_2"></div>
     <div class="price_holder">
         <?php include "../bob_ross_prices.php"?>
     </div>

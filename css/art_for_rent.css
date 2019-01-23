@@ -4,10 +4,12 @@ html {
 }
 
 body {
-    width: 100%;
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Major Mono Display', monospace;
+    background-color: white;
 }
 
 .debug {
@@ -16,6 +18,11 @@ body {
 
 .whitespace {
     height: 5vh;
+    width: 100%;
+}
+
+.whitespace_2 {
+    height: 2vh;
     width: 100%;
 }
 
@@ -103,6 +110,11 @@ body {
 .art_box {
     width: 15vw;
     height: 100%;
+    transition: .4s;
+}
+
+.art_box:hover {
+    transform: scale(1.7);
 }
 
 /* ************************************************************** */
@@ -112,6 +124,7 @@ body {
     height: 3vh;
     display: flex;
     justify-content: space-around;
+
 }
 
 .price_box {
