@@ -44,13 +44,13 @@ function nextPhoto() {
     } else {
         indexArtistImages = 0;
     }
-
+ nextText();
 }
 var indexArtistText = 0;
-var artistTextArray = ['dbfhdsbhfbdshgbhdsghdsfkdsgdshgdshgdshfdshfkjdshgdshgfdsjk', 'lklklklklklklkklkllklklklklklklklklklklklklklk', 'popopopopopopopopopopopopopopopopopopopopopo', 'wqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwqwwqwqwq'];
+var artistTextArray = ['Enn Kunila: "Art is making sense and giving shape to that sense"','Bob ross: "we dont make mistakes, just happe little accidents"', 'Freddy Stuward: "My art is like my dreams; you dont have to understand it... just enjoy it"', 'Sarah Michelle: "I paint what I see. sometimes I paint what others see too. if that isnt art, I dont know what is"'];
 
 function nextText() {
-    document.getElementById('text_container_p').src = artistTextArray[indexArtistText];
+    document.getElementById("text_container_p").innerHTML = artistTextArray[indexArtistText];
     if (indexArtistText < artistTextArray.length - 1) {
         indexArtistText++;
     } else {

@@ -157,7 +157,9 @@ body {
     float: left;
     margin-left:  20px;
     margin-right: 20px;
+    margin-top: 32px;
     padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 1px grey;
 }
 
 .filter_container a {
@@ -177,6 +179,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     border-bottom: 1px solid black;
+
 }
 
 .all_art_container {
@@ -184,8 +187,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
+
+   
 
 .name_art_price_box {
     display: flex;

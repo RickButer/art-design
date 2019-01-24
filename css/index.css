@@ -171,10 +171,14 @@ body {
     height: 75%;
     width: 35vw;
 }
+.CA_photo_container img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 
 
 .CA_text_container {
-    height: 60%;
     width: 35%;
     text-align: left;
     font-size: 25px;
@@ -183,6 +187,8 @@ body {
 
 #text_container_p {
     overflow: wrap;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .CA_next_container {
@@ -300,5 +306,87 @@ body {
     background-image: url(../images/Rightarrow.png);
     background-size: cover;
 }
+
+/* start login ************************************************************* */
+#login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    letter-spacing: 8px;
+}
+
+.login_container {
+    /* background-image: url(../images/background.png); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10%;
+    background-image: url(../images/navbar_background.png);
+}
+
+
+
+.welcome_login p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    height: 30px;
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  input[type=text] {
+    width: 50%;
+    border-radius: 4px;
+    height: 24px;
+  }
+
+  input[type=email] {
+    width: 50%;
+    border-radius: 4px;
+    height: 24px;
+
+  }
+
+  .sign_up {
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: none;
+      outline: none;
+  }
+
+  .sign_up a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-weight: bolder;
+    border: 3px solid white;
+    padding: 5px 5px;
+  }
+
+
 
 

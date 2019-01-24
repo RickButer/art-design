@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="whitespace_2"></div>
-    <div class="filter_container debug">
+    <div class="filter_container">
         <div class="filter_box">Filter by:</div><br /><br />
         <a href="#">- art name -</a>
         <br /><br /><br />
