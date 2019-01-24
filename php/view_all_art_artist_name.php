@@ -26,14 +26,14 @@
     <div class="whitespace_2"></div>
     <div class="filter_container debug">
         <div class="filter_box">Filter by:</div><br /><br />
-        <a href="#">- art name -</a>
+        <a href="view_all_art.php">- art name -</a>
         <br /><br /><br />
         <a href="view_all_art_price.php">- price > -</a>
         <br /><br /><br />
-        <a href="price_DESC.php">- price < -</a>
+        <a href="#">- price < -</a>
     </div>
     <div class="all_art_container">
-        <?php include "../all_art_artnameASC.php"?>
+        <?php include "../price_DESC.php"?>
     </div>
 </body>
 
