@@ -15,7 +15,8 @@
     <div class="name_holder_container">
         <div class="name_holder">
             <a href="../index.php"><img src="../images/artLogo.png"></a>
-            <p>art for rent</p>
+            <a href="#"><p>art for sale</p></a>
+            <a href="#"><p>view all art</p></a>
         </div>
     </div>
     <div class="whitespace"></div>

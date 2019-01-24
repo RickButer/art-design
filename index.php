@@ -14,8 +14,8 @@
     <div class="navbar_container">
         <img src="images/artLogo.png" alt="" width="120vw" height="50vh" />
         <a href="#current_artist">current artists</a>
-        <a href="#art_for_rent">contact</a>
-        <a href="php/art_for_rent.php">art for rent</a>
+        <a href="#">contact</a>
+        <a href="php/art_for_sale.php">art for sale</a>
     </div>
     <div class="photo_container">
         <img src="images/artstamp.png" alt="" id="logo_stamp" />
