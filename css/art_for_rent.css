@@ -33,6 +33,7 @@ body {
     height: 10vh;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 
@@ -179,14 +180,14 @@ body {
     font-size: 24px;
     font-weight: bold;
     border-bottom: 1px solid black;
-
+    
 }
 
 .all_art_container {
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
    
@@ -194,14 +195,15 @@ body {
 .name_art_price_box {
     display: flex;
     height: 40vh;
-    width: 15vw;
+    width: 25vw;
     flex-direction: column;
     margin-bottom: 15px;
     transition: 0.4s;
+    border-bottom: 1px solid black;
 }
 
 .name_art_price_box:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: black;
     color: white;
 }

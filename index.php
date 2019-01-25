@@ -54,15 +54,17 @@
                 <p>Please login to buy art</p>
             </div><br /><br /><br />
             <div class="input_box">
-                <input type="email" placeholder="please fill in your email" />
+                <input type="email" placeholder="please fill in your email" required/>
             </div><br />
             <div class="input_box">
-                <input type="text" placeholder="please fill in your password" />
+                <input type="text" placeholder="please fill in your password" required/>
             </div><br /><br /><br /><br />
             <div class="input_box">
                 <input type="submit" />
             </div><br />
-            <div class="sign_up"><p>no account? sign up</p><a href="#">here</a></div>
+            <div class="sign_up">
+                <p>no account? sign up</p><a href="#">here</a>
+            </div>
 
 
         </div>
