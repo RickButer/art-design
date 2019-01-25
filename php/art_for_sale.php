@@ -16,7 +16,7 @@
         <div class="name_holder">
             <a href="../index.php"><img src="../images/artLogo.png"></a>
             <a href="#"><p>art for sale</p></a>
-            <a href="view_all_art.php"><p>view all art</p></a>
+            <a href="view_all_art_nofilter.php"><p>view all art</p></a>
         </div>
     </div>
     <div class="whitespace"></div>
